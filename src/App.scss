@@ -1,0 +1,19 @@
+#root {
+  .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    padding: 0 !important;
+  }
+
+  .container-fluid {
+    .row {
+      margin: 0 !important;
+
+      > header, > section, > footer {
+        width: 100%;
+      }
+
+      > section {
+        padding: 15px;
+      }
+    }
+  }
+}
