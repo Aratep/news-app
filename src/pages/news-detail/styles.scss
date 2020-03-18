@@ -1,0 +1,22 @@
+.news-detail-page {
+  .go-back-link {
+    cursor: pointer;
+    opacity: .8;
+    text-decoration: underline;
+    padding-bottom: 20px;
+    color: blue;
+  }
+
+  .card-body {
+    img {
+      height: 200px;
+      width: 400px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .spinner-border {
+    position: absolute;
+    right: 50%;
+  }
+}

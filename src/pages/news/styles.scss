@@ -1,0 +1,42 @@
+.news-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  h1 {
+    text-align: center;
+    opacity: .8;
+  }
+
+  form {
+    display: flex;
+    justify-content: flex-end;
+
+    input {
+      width: 20%;
+    }
+  }
+
+  &-news-block {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+
+    .card {
+      margin: 15px;
+
+      img {
+        height: 185px;
+      }
+    }
+
+    .card:hover {
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 16px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+    }
+  }
+
+  .spinner-border {
+    position: absolute;
+    right: 50%;
+  }
+}

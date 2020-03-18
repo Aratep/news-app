@@ -6,6 +6,18 @@ header {
     background-color: rgb(255, 255, 255) !important;
     height: 100%;
     width: 100%;
+
+    .mr-auto {
+      width: 100%;
+      justify-content: space-around;
+
+      a {
+        display: flex;
+        align-items: center;
+        color: rgba(0,0,0,.7);
+        text-decoration: none;
+      }
+    }
   }
 
   .info {

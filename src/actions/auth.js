@@ -1,44 +1,36 @@
+import axios from 'axios';
+
 import {
-    API_URL,
+    BASE_API_URL,
     LOGIN_STARTED,
     LOGIN_SUCCESS,
     LOGIN_FAILURE,
     LOG_OUT,
-} from "../constants/action-types";
-import {token} from "../constants/helperFunctions";
+} from "../helpers/constants/action-types";
+import {token} from "../helpers/helperFunctions";
 import history from "../history";
 
-export const auth = ({username, password}) => {
-    console.log({username, password});
-
-    return dispatch => {
+export const login = ({username, password}) => {
+    return async dispatch => {
         dispatch(loginStarted());
+        try {
+            const result = await axios.get(`${BASE_API_URL}/auth.json`);
+            const {user} = result.data;
 
-        fetch(`${API_URL}/auth.json`, {
-            method: "GET",
-        })
-            .then(res => {
-                return res.json();
-            })
-            .then(res => {
-                console.log(res);
-                const {user} = res;
-                // console.log({auth, password})
-                if (username === user.username && password === user.password) {
-                    const auth_token = token()
-                    dispatch(loginSuccess(user));
-                    // const token = 'laskfjdlasjf'
-                    delete user.password;
-                    localStorage.setItem('current_user', JSON.stringify(res));
-                    localStorage.setItem('auth_token', JSON.stringify(auth_token));
-                    history.push('/profile')
-                } else {
-                    dispatch(loginFailure('The username or password you entered is incorrect'))
-                }
-            })
-            .catch(err => {
-                console.log(err)
-            });
+            if (username === user.username && password === user.password) {
+                const auth_token = token();
+                dispatch(loginSuccess(user));
+                delete user.password;
+                localStorage.setItem('current_user', JSON.stringify(user));
+                localStorage.setItem('auth_token', JSON.stringify(auth_token));
+
+                history.push('/profile')
+            } else {
+                dispatch(loginFailure('The username or password you entered is incorrect'))
+            }
+        } catch (error) {
+            console.log(error)
+        }
     };
 };
 
@@ -46,10 +38,6 @@ export const loginSuccess = user => ({
     type: LOGIN_SUCCESS,
     payload: user
 });
-
-
-// const currentUser = JSON.parse(localStorage.getItem("current_user"));
-// localStorage.getItem('user_token') && loginSuccess(currentUser);
 
 const loginStarted = () => ({
     type: LOGIN_STARTED
@@ -66,16 +54,5 @@ export function logOut() {
         localStorage.removeItem('current_user');
         localStorage.removeItem('auth_token');
         history.push('/')
-        //             localStorage.removeItem('passengerStorage');
-        // fetch(`${API_URL}/logout/`)
-        //     .then(res => res.json())
-        //     .then(res => {
-        //         if (res.code === '200') {
-        //             localStorage.removeItem('currentUser');
-        //             localStorage.removeItem('passengerStorage');
-        //             dispatch({type: LOG_OUT});
-        //         }
-        //     })
-        //     .catch(err => console.log(err))
     }
 }

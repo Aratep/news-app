@@ -3,13 +3,11 @@ import {
     LOGIN_SUCCESS,
     LOGIN_FAILURE,
     LOG_OUT
-} from '../constants/action-types';
+} from '../helpers/constants/action-types';
 
 const initialState = {
     loading: null,
-    user: {
-        username: 'guest'
-    },
+    user: {},
     error: null
 };
 

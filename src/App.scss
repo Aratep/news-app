@@ -1,9 +1,13 @@
 #root {
+  height: 100vh;
+
   .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
     padding: 0 !important;
   }
 
   .container-fluid {
+    height: 100%;
+
     .row {
       margin: 0 !important;
 
@@ -15,5 +19,15 @@
         padding: 15px;
       }
     }
+  }
+
+  .error-message {
+    font-size: 13px;
+    text-align: center;
+    color: red;
+  }
+
+  .bg-white {
+    background-color: white;
   }
 }

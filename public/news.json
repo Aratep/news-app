@@ -1,0 +1,64 @@
+{
+  "news": [
+    {
+      "id":1,
+      "title": "Bitcoin’s Minute-By-Minute Correlation With Stock Market May Signal Disaster",
+      "description": "For most of Bitcoin’s life, it’s been a pitched as an asset uncorrelated from the stock market and other traditional equities. It’s been a strong selling point for institutional investors seeking to add variety or even derisk their portfolios. However, as of …",
+      "image": "https://www.newsbtc.com/wp-content/uploads/2020/03/bitcoin-stock-market-disaster-shutterstock_226393516-1200x780.jpg"
+    },
+    {
+      "id":2,
+      "title": "Bitcoin News Roundup for March 17, 2020",
+      "description": "NFTs for sale on Gemini, market muddles and a blockchain for toilet paper? It's CoinDesk's Markets Daily.",
+      "image": "https://www.coindesk.com/wp-content/uploads/2020/01/Markets-Daily-Front-Page-Adam-John-1200x628.jpg"
+    },
+    {
+      "id":3,
+      "title": "Bitcoin Could Hit $20,000 Even as Coronavirus Crushes Global Markets",
+      "description": "Bitcoin believers waited for a global economic crisis for years, hoping it would prompt investors to inject hundreds of billions of dollars into the cryptocurrency’s small, illiquid market. But the narrative failed big time as bitcoin came face to face with a…",
+      "image": "https://www.newsbtc.com/wp-content/uploads/2020/03/shutterstock_1594015045-1200x780.jpg"
+    },
+    {
+      "id":4,
+      "title": "Weekly Threat Briefing: Russian APT, Microsoft SMB Vulnerability, Virgin Media Data Leak, and More",
+      "description": "The various threat intelligence stories in this iteration of the Weekly Threat Briefing discuss the following topics: APT, Turla, Data leak, NSO, CVE, Phishing,  and  Vulnerabilities. The IOCs related to these stories are attached to the Weekly Threat Briefin…",
+      "image": "https://anomali.cdn.rackfoundry.net/images/made/images/uploads/blog/ogAnomali_Weekly_Threat_Briefing_Cover_1200_630.jpg"
+    },
+    {
+      "id":5,
+      "title": "Second Fraudulent Bank Closed Down",
+      "description": "[AIM] Maputo -The Bank of Mozambique has referred to the public prosecutor a private bank which promised investors returns of up to 50 per cent within 12 months, and has immediately suspended its operations.",
+      "image": "https://cdn07.allafrica.com/static/images/structure/aa-logo-rgba-no-text-128x128.png"
+    },
+    {
+      "id":6,
+      "title": "NEW TECH: Can MPC — Multi Party Computation — disrupt encryption, boost cloud commerce?",
+      "description": "Encryption is a cornerstone of digital commerce. But it has also proven to be a profound constraint on the full blossoming of cloud computing and the Internet of Things. Related: A ‘homomorphic-like’ encryption solution We know very well how to encrypt data i…",
+      "image": "https://www.lastwatchdog.com/wp/wp-content/uploads/iStock_encryption-key-palm-750-100x58.jpg"
+    },
+    {
+      "id":7,
+      "title": "The Sinister Red Rooms: Internet Urban Legend or Reality?",
+      "description": "We live in an era of unprecedented access to information and other people, where the Internet has taken us to a level that we can communicate and tap into pretty much anything we want without even leaving the comfort of our own homes. While this has been most…",
+      "image": "https://mysteriousuniverse.org/wp-content/uploads/2020/03/The-door-to-the-red-room-HD-scary-wallpaper_5120x3200-640x351.jpg"
+    },
+    {
+      "id":8,
+      "title": "NEW TECH: Can MPC — Multi Party Computation — disrupt encryption, boost cloud commerce?",
+      "description": "Encryption is a cornerstone of digital commerce. But it has also proven to be a profound constraint on the full blossoming of cloud computing and the Internet of Things. Related: A ‘homomorphic-like’ encryption solution We know very well how to … (more…) The …",
+      "image": "https://www.lastwatchdog.com/wp/wp-content/uploads/200224_NigelSmart_2_Narr-520x201.jpg"
+    },
+    {
+      "id":9,
+      "title": "Opera Browser Users in the U.S. Can Now Buy Bitcoin and Ethereum With Apple Pay",
+      "description": "Bitcoin started getting attention from mainstream media when its value peaked in December 2017. Ever since then the adoption rate for bitcoin is steadily rising. Now Opera has announced that users can buy Ethereum and Bitcoin via its browser by using Apple Pa…",
+      "image": "http://cdn.iphonehacks.com/wp-content/uploads/2020/03/us-crypto-opera.png"
+    },
+    {
+      "id": 10,
+      "title": "Bitcoin Basher Wells Fargo Shuts Down Branches",
+      "description": "2020 is shaping up to be pretty dire for most of us. But will it be cryptocurrency companies or bankers that get hit hardest in this uncertain economic climate? Just four days after President Trump declares a national state of emergency in the U.S., Wells Far…",
+      "image": "https://bitcoinist.com/wp-content/uploads/2019/03/shutterstock_497875561.jpg"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  form {
+    width: 330px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+
+    button {
+      width: 100%;
+    }
+  }
+}

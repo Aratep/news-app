@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5afff2cb-f528-4a3e-bd7e-c5a7a8bced62" name="Default Changelist" comment="" />
+    <list default="true" id="5afff2cb-f528-4a3e-bd7e-c5a7a8bced62" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hoc/PrivateRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hoc/PrivateRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/constants/action-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/constants/action-types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/helperFunctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/helperFunctions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/LoginPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/news/NewsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/news/NewsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZD0xcZJ8sUXgnh8qeSn7t7085C" />
   <component name="ProjectViewState">
@@ -23,6 +44,12 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/helpers/constants" />
+      <recent name="$PROJECT_DIR$/src/constants" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -38,6 +65,10 @@
       <workItem from="1584419129415" duration="3657000" />
       <workItem from="1584423013319" duration="882000" />
       <workItem from="1584438458327" duration="5223000" />
+      <workItem from="1584446736251" duration="18698000" />
+      <workItem from="1584470399393" duration="4790000" />
+      <workItem from="1584520450232" duration="640000" />
+      <workItem from="1584521869140" duration="3978000" />
     </task>
     <servers />
   </component>

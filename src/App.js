@@ -17,9 +17,9 @@ function App() {
                 <Row>
                     <AppRoutes/>
                 </Row>
-                <Row>
-                    <Footer/>
-                </Row>
+                {/*<Row>*/}
+                {/*    <Footer/>*/}
+                {/*</Row>*/}
             </Container>
         </React.Fragment>
     );
