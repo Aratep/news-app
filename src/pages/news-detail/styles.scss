@@ -7,10 +7,11 @@
     color: blue;
   }
 
-  .card-body {
+  .card {
     img {
       height: 200px;
       width: 400px;
+      max-width: 100%;
       margin-bottom: 10px;
     }
   }

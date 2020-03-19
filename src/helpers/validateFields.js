@@ -1,5 +1,4 @@
-
- const validateFields = (values) => {
+const validateFields = (values) => {
     let errors = {};
 
     if (!values.username) {

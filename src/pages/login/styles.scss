@@ -5,12 +5,18 @@
 
   form {
     width: 330px;
-    height: 400px;
+    min-height: 320px;
+    height: fit-content;
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding: 15px;
+
+    input {
+      border: none;
+      background-color: #f2f2f2;
+    }
 
     button {
       width: 100%;

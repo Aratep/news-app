@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Button, Form, Spinner} from 'react-bootstrap';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
@@ -6,10 +6,18 @@ import {bindActionCreators} from 'redux';
 import * as actions from '../../actions';
 import validateFields from "../../helpers/validateFields";
 import useFormValidation from "../../helpers/useFormValidation";
+import history from "../../history";
 import './styles.scss'
 
 function LoginPage(props) {
     const {error, loading} = props.auth;
+
+    useEffect(() => {
+        document.title = "Login Page";
+        if(localStorage.getItem("auth_token")) {
+            history.push('/')
+        }
+    }, []);
 
     const INIT_STATE = {
         username: "",
@@ -19,7 +27,6 @@ function LoginPage(props) {
     const onFormSubmit = async () => {
         const {username, password} = values;
         props.login({username, password});
-
     };
 
     const {
@@ -68,8 +75,7 @@ function LoginPage(props) {
                     <Button
                         disabled={isSubmitting}
                         variant="primary"
-                        type="submit"
-                    >
+                        type="submit">
                         Submit
                         {
                             loading &&  <Spinner
@@ -96,8 +102,7 @@ const mapStateToProps = (store) => {
 const mapDispatchToProps = dispatch => bindActionCreators(
     {
         login: actions.login,
-    },
-    dispatch,
+    }, dispatch,
 );
 
 export default connect(mapStateToProps, mapDispatchToProps)(LoginPage)

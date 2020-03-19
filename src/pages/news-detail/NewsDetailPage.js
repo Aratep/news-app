@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Spinner, Card} from 'react-bootstrap';
 import {connect} from 'react-redux'
 
@@ -6,6 +6,11 @@ import './styles.scss'
 
 function NewsDetailPage(props) {
     const {currentNews} = props.currentNews;
+
+    useEffect(() => {
+        document.title = "Single News Page";
+    }, []);
+
 
     const goBack = () => {
         props.history.goBack()
@@ -15,12 +20,11 @@ function NewsDetailPage(props) {
 
     return (
         <section className="news-detail-page">
-            <span className="go-back-link" onClick={goBack}>Go Back</span>
+            <div className="go-back-link" onClick={goBack}>Go Back</div>
             {!currentNews && <Spinner animation="border"/>}
             <Card bg="light">
-                {/*<Card.Img variant="top" src={n.image}/>*/}
+                <Card.Img variant="top" src={currentNews.image}/>
                 <Card.Body>
-                    <Card.Img variant="top" src={currentNews.image}/>
                     <Card.Title>{currentNews.title}</Card.Title>
                     <Card.Text>{currentNews.description}</Card.Text>
                 </Card.Body>

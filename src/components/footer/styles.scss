@@ -1,5 +1,10 @@
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  text-align: center;
+  //text-align: center;
+  background-color: lightgrey;
+  height: 50px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
 }

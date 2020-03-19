@@ -6,11 +6,11 @@ const initialState = {
 
 function currentNewsReducer(state = initialState, action) {
     switch (action.type) {
-            case GET_CURRENT_NEWS:
-                return {...state, currentNews: action.payload};
-            default:
-                return state;
-        }
+        case GET_CURRENT_NEWS:
+            return {...state, currentNews: action.payload};
+        default:
+            return state;
+    }
 }
 
 export default currentNewsReducer

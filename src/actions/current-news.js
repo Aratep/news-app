@@ -2,7 +2,6 @@ import {GET_CURRENT_NEWS} from "../helpers/constants/action-types";
 
 export const getCurrentNews = (id, news) => {
     const currentNews = news.filter(n => n.id === id);
-    // console.log(news)
 
     return dispatch => {
         dispatch({

@@ -3,7 +3,7 @@
   justify-content: center;
   flex-direction: column;
 
-  h1 {
+  h5 {
     text-align: center;
     opacity: .8;
   }
@@ -14,6 +14,8 @@
 
     input {
       width: 20%;
+      border: none;
+      background-color: #f2f2f2;
     }
   }
 
@@ -21,6 +23,7 @@
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    //margin-bottom: 40px;
 
     .card {
       margin: 15px;
@@ -38,5 +41,17 @@
   .spinner-border {
     position: absolute;
     right: 50%;
+    top: 115px;
+    z-index: 111;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .news-page {
+    form {
+      input {
+        width: 50%;
+      }
+    }
   }
 }
