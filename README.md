@@ -56,6 +56,23 @@ Promise based HTTP client for the browser and node.js. (https://github.com/axios
 React Bootstra is the most popular front-end framework rebuilt for React. React-Bootstrap replaces the Bootstrap JavaScript. Each component has been built from scratch as a true React component, without unneeded dependencies like jQuery.
 (https://react-bootstrap.github.io/)
 
+
+## About Project 
+
+### There are following pages
+
+### `/` or `/home` - the main page. Filled by lorem ipsum text.
+
+### `/login`- login and password entry page. The login form (/login) accepts fake data:
+    username: admin
+    password: 12345
+If other data is entered, the following messages are displayed: "The username or password you entered is incorrect".
+If the correct data is entered, then redirect to the /profile page.
+
+### `/profile` - a page with free text. The profile page is unavailable without authorization.
+
+### `/news` - this page contains the listing of sample news taken from json file. Each news consists of image, title, description․ On /news page implements frontend search with filtering. There is ability to go to the inner page of news (/news/1).
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
