@@ -43,13 +43,21 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 Used for client side routing. Oficial docs [web version](https://reacttraining.com/react-router/web/guides/quick-start).
 
-### `redux` - state container for JS apps
-### `react-redux`-  React bindings for Redux
-### `redux-thunk`- middleware for Redux
+### `redux` 
+
+State container for JS apps.
+
+### `react-redux`
+
+React bindings for Redux.
+
+### `redux-thunk`
+
+Thunk middleware for Redux.
 
 ### `axios`
 
-Promise based HTTP client for the browser and node.js. (https://github.com/axios/axios)
+Promise based HTTP client for the browser and node.js. (https://github.com/axios/axios). Used for API calls.
 
 ### `react-bootstrap`
 
